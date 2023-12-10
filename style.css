@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&family=Inclusive+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(230, 245, 28);
+}
+
+.titulo {
+    color: rgb(47, 49, 145);
+    font-family: "Gabarito";
+    background: rgba(119, 118, 118, 0);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 23.75rem;
+    height: 23.75rem; 
+    margin: 180px auto; 
+    gap: 15px;
+    border-radius: 16px;
+    background: rgba(158, 148, 148, 0.301);
+    backdrop-filter: blur(10px);
+    padding: 10px;
+}
+
+.input {
+    color: green;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+.texto {
+    color: green;
+    background: rgba(119, 118, 118, 0);
+    font-family: "Gabarito";
+}
